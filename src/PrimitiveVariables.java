@@ -1,12 +1,12 @@
-public class Variables {
+public class PrimitiveVariables {
 
     public static void main(String[] args) {
-        // Variables
+        // Primitive Variables
         String name = "John Doe";
         char firstNameLetter = 'J';
         int age = 26;
         boolean isMale = true;
-        double cash = 10.5;
+        float cash = 10.5f;
 
         String genre = isMale ? "Male" : "Female";
         String pronoun = isMale ? "He" : "She";

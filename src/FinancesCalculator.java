@@ -1,19 +1,21 @@
 import java.util.Scanner;
 
-public class Finances {
+public class FinancesCalculator {
 
     public static void main(String[] args){
-        // 50: Needs
-        // 30: Wishes
-        // 20: Saving
+
+        // Finances Calculator
+        final float NEEDS_PERCENTAGE = 0.5f;
+        final float WISHES_PERCENTAGE = 0.3f;
+        final float SAVING_PERCENTAGE = 0.2f;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your net salary in USD: ");
-        double salary = scanner.nextDouble();
+        float salary = scanner.nextFloat();
 
-        double needs = salary * 0.5;
-        double wishes = salary * 0.3;
-        double saving = salary * 0.2;
+        float needs = salary * NEEDS_PERCENTAGE;
+        float wishes = salary * WISHES_PERCENTAGE;
+        float saving = salary * SAVING_PERCENTAGE;
 
         System.out.println("You should spend your salary this way");
         System.out.println("$" + needs + " for needs");

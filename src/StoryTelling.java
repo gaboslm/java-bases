@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Story {
+public class StoryTelling {
 
     public static void main(String[] args) {
-        // Short story
+        // Short telling
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your girl character name: ");
