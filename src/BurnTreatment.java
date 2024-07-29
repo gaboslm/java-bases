@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Burn {
+public class BurnTreatment {
 
     public static void main(String[] args) {
         final int FIRST_GRADE = 1;
